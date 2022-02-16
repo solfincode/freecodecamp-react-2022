@@ -24,7 +24,10 @@ const Navbar = ({ title }) => {
             <ListStyle>main</ListStyle>
           </Link>
           <Link to="/first-project">
-            <ListStyle>first project</ListStyle>
+            <ListStyle>React Fun Facts</ListStyle>
+          </Link>
+          <Link to="/airbnb-clone">
+            <ListStyle>airbnb clone</ListStyle>
           </Link>
         </NavbarEl>
       </Header>

@@ -42,7 +42,7 @@ export const LIEl = styled.li`
 export const BoxCon = styled.div`
   width: 500px;
   margin: 0 auto;
-  background-color: #fbbf24;
+  background-color: ${(props) => (props.white ? "white" : "#fbbf24")};
   border-radius: 15px;
   margin-top: 100px;
 `;
@@ -51,7 +51,7 @@ export const Nav = styled.div`
   display: flex;
   flex-dirction: row;
   justify-content: space-between;
-  background-color: #3b82f6;
+  background-color: ${(props) => (props.red ? "rgb(255, 56, 92)" : "#3b82f6")};
   padding: 20px;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
@@ -60,4 +60,33 @@ export const Nav = styled.div`
 export const Container = styled.div`
   padding: 20px;
   color: black;
+  ${(props) =>
+    props.rows ? "display:flex;flex-direction:row;justify-content:center" : ""}
+`;
+
+export const CardCon = styled.div`
+  width: 200px;
+  height: 100%;
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  ${(props) => (props.marginRight ? "margin-right:20px" : "")}
+`;
+
+export const ImageCon = styled.img`
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+`;
+
+export const ContentCon = styled.div`
+  padding: 20px;
+`;
+
+export const Title = styled.h2`
+  font-size: 20px;
+  font-weight: bold;
+`;
+
+export const Body = styled.p`
+  font-size: 13px;
 `;

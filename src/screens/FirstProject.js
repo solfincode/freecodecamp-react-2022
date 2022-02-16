@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import { ULContainer, LIEl, BoxCon, Nav, Container } from "../assets/styled";
 
 const FirstProject = () => {
