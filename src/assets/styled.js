@@ -6,6 +6,8 @@ export const Header = styled.div`
   flex-direction: row;
   justify-content: space-between;
   padding: 0 20px;
+  margin: 20px;
+  border-radius: 15px;
 `;
 
 export const BrandContainer = styled.div`
