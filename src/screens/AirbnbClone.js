@@ -5,6 +5,7 @@ import Card from "../components/Card";
 const data = [
   {
     type: "marginRight",
+    isOpen: true,
     mile: "88",
     title: "Big Bear Lake",
     imgurl:
@@ -12,6 +13,7 @@ const data = [
   },
   {
     mile: "260",
+    isOpen: false,
     title: "Mammoth Lakes",
     imgurl:
       "https://a0.muscache.com/im/pictures/73250991-433e-4950-b7d1-59bba711bb57.jpg?im_w=480",
@@ -34,6 +36,7 @@ const AirbnbClone = () => {
               mile={post.mile}
               title={post.title}
               imgurl={post.imgurl}
+              isOpen={post.isOpen}
             />
           ))}
         </Container>

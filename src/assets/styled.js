@@ -92,3 +92,13 @@ export const Title = styled.h2`
 export const Body = styled.p`
   font-size: 13px;
 `;
+
+export const PriceTag = styled.div`
+  z-index: 100;
+  position: absolute;
+  padding: 3px 10px 5px 10px;
+  background-color: black;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 0.8rem;
+`;
