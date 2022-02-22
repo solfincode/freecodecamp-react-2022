@@ -102,3 +102,27 @@ export const PriceTag = styled.div`
   margin: 10px;
   font-size: 0.8rem;
 `;
+
+export const InputCon = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  flex-direction: row nowrap;
+  justify-content: space-between;
+`;
+
+export const Input = styled.input`
+  border: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+`;
+
+export const Button = styled.div`
+  background-color: black;
+  padding: 10px 10px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+`;

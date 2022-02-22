@@ -29,6 +29,9 @@ const Navbar = ({ title }) => {
           <Link to="/airbnb-clone">
             <ListStyle>airbnb clone</ListStyle>
           </Link>
+          <Link to="/memeapp">
+            <ListStyle>meme app</ListStyle>
+          </Link>
         </NavbarEl>
       </Header>
     </>

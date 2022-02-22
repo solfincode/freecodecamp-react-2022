@@ -7,6 +7,7 @@ import Home from "./screens/Home";
 import FirstProject from "./screens/FirstProject";
 import AirbnbClone from "./screens/AirbnbClone";
 import Navbar from "./components/Navbar";
+import MemeApp from "./screens/MemeApp";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/first-project" element={<FirstProject />} />
         <Route path="/airbnb-clone" element={<AirbnbClone />} />
+        <Route path="/memeapp" element={<MemeApp />} />
       </Routes>
     </>
   );
